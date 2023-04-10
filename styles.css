@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+    color: grey;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(101, 79, 30, 0.203);
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 0.5em;
+    color: white;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 2em;
+    font-weight: lighter;
+    border-bottom: 1px solid grey
+}
+
+.main-nav li {
+    padding: 0 auto;
+}
+
+.nav a:hover {
+    background-color: olive
+}
+
+.main-header {
+    background-color: grey;
+    background-image: url("Images/background3.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+    font-size: large;
+}
+
+.title {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Booter - Zero Zero";
+    font-weight: normal;
+    color: white;
+}
+
+.title-large {
+    font-size: 8em;
+}
+
+.section {
+    margin: 1em;
+    overflow: auto;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+    font-size: auto;
+}
+
+.subheading {
+    font-weight: normal;
+    color: grey;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.my-picture {
+    display:block;
+    height: 300px;
+    width: 300px;
+    margin: auto auto;
+    border-radius: 10%;
+    padding: 1%;
+}
+
+.content {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+label {
+    margin: auto;
+}
+  
+input {
+    padding: 5px;
+    margin: auto;
+    border: 1px solid gray;
+    width: 30%;
+}
+  
+button {
+    background-color: grey;
+    color: white;
+    padding: 5px;
+    border: 1px solid grey;
+    font-size: auto;
+    margin-top: 10px;
+}
+  
+button:hover {
+    background-color: black;
+}
+
+.main-footer {
+    background-color: grey;
+    color: white;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ol {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.footer-nav li {
+    padding: 0 auto;
+}
+
+.real-madrid-image {
+    display:block;
+    height: 450px;
+    width: 450px;
+    margin: auto auto;
+    border-radius: 4%;
+    padding: 1%;
+}
+
+.favourites {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.favourites li:before {
+    content: "➡";
+}
+
+.vini {
+    margin-bottom: auto;
+    font-size: auto;
+    font-style: italic;
+    font-weight: lighter;
+    color: grey;
+}
+
+.cama {
+    margin-bottom: auto;
+    font-size: auto;
+    font-style: italic;
+    font-weight: lighter;
+    color: grey;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+th {
+    background-color: navy;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+    border: 1px solid grey;
+}
+  
+td {
+    text-align: center;
+    padding: 8px;
+    border: 1px solid grey;
+}
+
+td:hover {
+    background-color: whitesmoke;
+}
+  
+.grid-box {
+    display: grid;
+    place-items: center;
+    height: 100%;
+}
+
+.frank-image {
+    width: 350px;
+    height: 350px;
+    margin: 10px auto;
+    border-radius: 5%;
+    padding: 1%;
+}
+
+.url {
+    color: rgb(110, 73, 6);
+    text-decoration: underline;
+}
+  
